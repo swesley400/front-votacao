@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react'
+
 import CardCandidatos from '../../components/CardsCandidato';
+import Footer from '../../components/Footer';
+
 import './style.scss'
+
 
 function App() {
   const [dadosApi, setDadosApi] = useState([])
@@ -41,6 +45,7 @@ function App() {
         </CardCandidatos>)}
       
       </div>
+      <Footer/>
     </div>
   )
 }
