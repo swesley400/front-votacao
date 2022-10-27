@@ -36,6 +36,7 @@ export default function CardCandidatos(props){
 
     return(
     <div className='cardCandidatos'>
+        <div>
         <div className='img-candidato'>
             <img src={props.urlImg} alt="imgCandidato" />
         </div>
@@ -51,6 +52,7 @@ export default function CardCandidatos(props){
             </div>
         </div>
         <button className='votar' onClick={()=>{ vote(props.docs, props.nome)}}>Votar</button>
+        </div>
     </div>
     )
 }

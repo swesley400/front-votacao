@@ -11,78 +11,86 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-
-    .img-candidato{
-        width: 150px;
-        height: 150px;
-        border-radius: 100%;
-        background-color: #EFECEC;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 10%;
-        img{
-           width: 140px;
-           height: 140px; 
-           border-radius: 100%;
-        }
-    }
-    .partido-numero{
-
-        display: flex;
-        width: 100%;
-        margin: 2%;
-        align-items: center;
+    div{
         
-        div{
-            margin-right: 40%;
-            margin-left: 10%;
-        }
-    }
-    .votos{
-        width: 100%;
-    }
-    .barra-progresso-out{
-        width: 100%;
-        height: 25px;
-        border-radius: 10px;
-        background-color: #F2F0F0;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-        
-        .barra-progresso-in{
+        .img-candidato{
             
-            height: 25px;
-            border-radius: 10px;
-            background-color: #81D8EB;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            background-color: #EFECEC;
+
             display: flex;
-            .texto-barra{
-                color: #ffffff;
-                font-weight: bold;
-                width: 100%;
-                height: 100%;
-                font-size: 10pt;
-                text-align: center;
-                align-items: center;
-                justify-content: center;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            margin: auto;
+            
+            img{
+            
+            width: 140px;
+            height: 140px; 
+            border-radius: 100%;
             }
         }
-        
-        
-    }
-    .votar{
-        border: none;
-        border-radius: 12px;
-        margin: 8%;
-        width: 83px;
-        height: 30px;
-        background-color: #ACF2D9 ;
-        font-weight: bolder;
-    }
-    .votar:hover{
-        cursor: pointer;
-        border: 1px solid #968E8E;
-        background-color: #ACF2D9 ;
-        
+        .partido-numero{
+
+            display: flex;
+            width: 100%;
+            margin: 2%;
+            align-items: center;
+            
+            div{
+                margin-right: 40%;
+                margin-left: 10%;
+            }
+        }
+        .votos{
+            width: 100%;
+        }
+        .barra-progresso-out{
+            width: 100%;
+            height: 25px;
+            border-radius: 10px;
+            background-color: #F2F0F0;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+            
+            .barra-progresso-in{
+                
+                height: 25px;
+                border-radius: 10px;
+                background-color: #81D8EB;
+                display: flex;
+                .texto-barra{
+                    color: #ffffff;
+                    font-weight: bold;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 10pt;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            
+            
+        }
+        .votar{
+            border: none;
+            border-radius: 12px;
+            margin: 8%;
+            width: 83px;
+            height: 30px;
+            background-color: #ACF2D9 ;
+            font-weight: bolder;
+        }
+        .votar:hover{
+            cursor: pointer;
+            border: 1px solid #968E8E;
+            background-color: #ACF2D9 ;
+            
+        }
     }
 }
 
