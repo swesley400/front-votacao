@@ -1,17 +1,15 @@
-const express = require('express')
+import express from 'express'
 
-const {} = require('path')
+import {} from 'path'
 
 
 const app = express()
 
 app.use('/', 
     express.static(
-        resolve(
-            __dirname,
         './dist'
         )
-    )
+    
 )
 
 app.listen(process.env.PORT || 3000, (err)=>{
