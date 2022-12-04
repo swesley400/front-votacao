@@ -1,15 +1,19 @@
 .App{
     text-align: center;
+    margin: auto auto;
+    width: 100%;
+    height: 100%;
 
     h1{
-       
+        margin: 40px;
         font-size: 40px;
     }
     .container-Candidatos{
         display: flex;
         align-items: center;
         justify-content: center;
-        
+        width: 100%;
+        height: 100%;
     }
 }
 
